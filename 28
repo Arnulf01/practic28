@@ -1,0 +1,91 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+double calc(double num1, double num2,int opera) {
+	switch (opera) {
+	case 1: {
+		return num1 + num2;
+		break;
+	 }
+	case 2: {
+		return num1 + num2;
+		break;
+	}
+	case 3: {
+		return num1 + num2;
+		break;
+	}case 4: {
+		return num1 + num2;
+		break;
+	}case 5: {
+		return num1 + num2;
+		break;
+	}case 6: {
+		return num1 + num2;
+		break;
+	}case 7: {
+		return num1 + num2;
+		break;
+	}case 8: {
+		return num1 + num2;
+		break;
+	}case 9: {
+		return num1 + num2;
+		break;
+	}case 10: {
+		return num1 + num2;
+		break;
+	}
+	}
+}
+
+
+int main() {
+	setlocale(LC_ALL, "RU"); 
+	float num1;
+	float num2;
+	char opera;
+	int menu;
+
+	cout << "[1] Cкладывать" << endl;
+	cout << "[2] Вычитать" << endl;
+	cout << "[3] Умножать" << endl;
+	cout << "[4] Делить" << endl;
+	cout << "[5] Деление от остатка" << endl;
+	cout << "[6] Степень" << endl;
+	cout << "[7] Корень" << endl;
+	cout << "[8] Куб" << endl;
+	cout << "[9] Cинус" << endl;
+	cout << "[10] Косинус" << endl;
+
+	cout << "Выбирите действие : ";
+	cin >> menu;
+	cout << "Введите число : ";
+	cin >> num1;
+	cout << "Введите второе число : ";
+	cin >> num2;
+
+	switch (menu) {
+	case 1: {
+		cout << calc(num1,num2,1);
+		break;
+	}
+	case 2: {
+		
+	}
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10: {}
+
+	}
+
+
+
+}
